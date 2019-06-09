@@ -23,6 +23,8 @@ public class LoginPage {
 	@FindBy(how=How.XPATH, using="//input[@name='Email']")
 	WebElement userNameTextBox;
 	
+	
+	//pw xpath
 	@FindBy(how=How.XPATH, using="//input[@name='Password']")
 	WebElement passwordTextBox;
 	
