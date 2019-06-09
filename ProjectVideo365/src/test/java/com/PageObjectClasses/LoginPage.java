@@ -1,3 +1,5 @@
+
+
 package com.PageObjectClasses;
 
 import java.util.ArrayList;
@@ -17,7 +19,7 @@ public class LoginPage {
 	WebDriver driver;
 	
 	SoftAssert softAssert = new SoftAssert();
-
+//pAGE FACTORY
 	@FindBy(how=How.XPATH, using="//input[@name='Email']")
 	WebElement userNameTextBox;
 	
